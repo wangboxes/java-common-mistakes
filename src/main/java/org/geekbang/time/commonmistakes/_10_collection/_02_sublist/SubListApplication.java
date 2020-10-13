@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.collection.sublist;
+package org.geekbang.time.commonmistakes._10_collection._02_sublist;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,10 +11,15 @@ public class SubListApplication {
 
     private static void wrong() {
         List<Integer> list = IntStream.rangeClosed(1, 10).boxed().collect(Collectors.toList());
+
         List<Integer> subList = list.subList(1, 4);
         System.out.println(subList);
         subList.remove(1);
+
+        //原始 List 中数字 3 被删除了，说明删除子 List 中的元素影响到了原始 List；
         System.out.println(list);
+
+        //尝试为原始 List 增加数字 0 之后再遍历子 List，会出现 ConcurrentModificationException。
         list.add(0);
         try {
             subList.forEach(System.out::println);
@@ -26,8 +31,8 @@ public class SubListApplication {
 
     public static void main(String[] args) throws InterruptedException {
 
-        oom();
-        //wrong();
+//        oom();
+        wrong();
         //right1();
 //        right2();
         //oomfix();
@@ -36,7 +41,8 @@ public class SubListApplication {
     private static void oom() {
         for (int i = 0; i < 1000; i++) {
             List<Integer> rawList = IntStream.rangeClosed(1, 100000).boxed().collect(Collectors.toList());
-            data.add(rawList.subList(0, 1));
+            List<Integer> subList = rawList.subList(0, 1);
+            data.add(subList);
         }
     }
 
