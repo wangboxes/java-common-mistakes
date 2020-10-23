@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.nullvalue.avoidnullpointerexception;
+package org.geekbang.time.commonmistakes._11_nullvalue._01_avoidnullpointerexception;
 
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
@@ -34,19 +34,23 @@ public class AvoidNullPointerExceptionController {
 
 
     private List<String> wrongMethod(FooService fooService, Integer i, String s, String t) {
-        log.info("result {} {} {} {}", i + 1, s.equals("OK"), s.equals(t),
-                new ConcurrentHashMap<String, String>().put(null, null));
-        if (fooService.getBarService().bar().equals("OK"))
+        log.info("result {} {} {} {}", i + 1, s.equals("OK"), s.equals(t), new ConcurrentHashMap<String, String>().put(null, null));
+
+        if (fooService.getBarService().bar().equals("OK")) {
             log.info("OK");
+        }
+
         return null;
     }
 
     private List<String> rightMethod(FooService fooService, Integer i, String s, String t) {
         log.info("result {} {} {} {}", Optional.ofNullable(i).orElse(0) + 1, "OK".equals(s), Objects.equals(s, t), new HashMap<String, String>().put(null, null));
+
         Optional.ofNullable(fooService)
                 .map(FooService::getBarService)
                 .filter(barService -> "OK".equals(barService.bar()))
                 .ifPresent(result -> log.info("OK"));
+
         return new ArrayList<>();
     }
 

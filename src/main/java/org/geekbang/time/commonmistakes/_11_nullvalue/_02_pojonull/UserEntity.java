@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.nullvalue.pojonull;
+package org.geekbang.time.commonmistakes._11_nullvalue._02_pojonull;
 
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;

@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.nullvalue.dbnull;
+package org.geekbang.time.commonmistakes._11_nullvalue._03_dbnull;
 
 import lombok.Data;
 

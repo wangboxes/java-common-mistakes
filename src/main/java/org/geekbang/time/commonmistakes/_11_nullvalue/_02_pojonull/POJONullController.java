@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.nullvalue.pojonull;
+package org.geekbang.time.commonmistakes._11_nullvalue._02_pojonull;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.nullvalue.dbnull;
+package org.geekbang.time.commonmistakes._11_nullvalue._01_avoidnullpointerexception;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,4 +10,3 @@ public class CommonMistakesApplication {
         SpringApplication.run(CommonMistakesApplication.class, args);
     }
 }
-
