@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.redundantcode.reflection.right;
+package org.geekbang.time.commonmistakes._21_redundantcode._02_reflection.right;
 
 import java.lang.annotation.*;
 

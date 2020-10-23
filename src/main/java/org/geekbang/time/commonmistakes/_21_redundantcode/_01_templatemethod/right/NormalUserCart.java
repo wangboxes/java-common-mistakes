@@ -1,6 +1,6 @@
-package org.geekbang.time.commonmistakes.redundantcode.templatemethod.right;
+package org.geekbang.time.commonmistakes._21_redundantcode._01_templatemethod.right;
 
-import org.geekbang.time.commonmistakes.redundantcode.templatemethod.Item;
+import org.geekbang.time.commonmistakes._21_redundantcode._01_templatemethod.Item;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;

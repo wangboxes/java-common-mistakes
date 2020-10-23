@@ -1,10 +1,10 @@
-package org.geekbang.time.commonmistakes.redundantcode.templatemethod;
+package org.geekbang.time.commonmistakes._21_redundantcode._01_templatemethod;
 
 import lombok.extern.slf4j.Slf4j;
-import org.geekbang.time.commonmistakes.redundantcode.templatemethod.right.AbstractCart;
-import org.geekbang.time.commonmistakes.redundantcode.templatemethod.wrong.InternalUserCart;
-import org.geekbang.time.commonmistakes.redundantcode.templatemethod.wrong.NormalUserCart;
-import org.geekbang.time.commonmistakes.redundantcode.templatemethod.wrong.VipUserCart;
+import org.geekbang.time.commonmistakes._21_redundantcode._01_templatemethod.right.AbstractCart;
+import org.geekbang.time.commonmistakes._21_redundantcode._01_templatemethod.wrong.InternalUserCart;
+import org.geekbang.time.commonmistakes._21_redundantcode._01_templatemethod.wrong.NormalUserCart;
+import org.geekbang.time.commonmistakes._21_redundantcode._01_templatemethod.wrong.VipUserCart;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.GetMapping;

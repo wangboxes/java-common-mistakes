@@ -1,8 +1,8 @@
-package org.geekbang.time.commonmistakes.redundantcode.templatemethod.wrong;
+package org.geekbang.time.commonmistakes._21_redundantcode._01_templatemethod.wrong;
 
-import org.geekbang.time.commonmistakes.redundantcode.templatemethod.Cart;
-import org.geekbang.time.commonmistakes.redundantcode.templatemethod.Db;
-import org.geekbang.time.commonmistakes.redundantcode.templatemethod.Item;
+import org.geekbang.time.commonmistakes._21_redundantcode._01_templatemethod.Cart;
+import org.geekbang.time.commonmistakes._21_redundantcode._01_templatemethod.Db;
+import org.geekbang.time.commonmistakes._21_redundantcode._01_templatemethod.Item;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

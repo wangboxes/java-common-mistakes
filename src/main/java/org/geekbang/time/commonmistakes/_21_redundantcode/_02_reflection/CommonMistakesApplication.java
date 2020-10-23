@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.redundantcode.templatemethod;
+package org.geekbang.time.commonmistakes._21_redundantcode._02_reflection;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

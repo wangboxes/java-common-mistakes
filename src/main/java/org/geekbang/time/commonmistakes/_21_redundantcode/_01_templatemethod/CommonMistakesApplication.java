@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.redundantcode.beancopy;
+package org.geekbang.time.commonmistakes._21_redundantcode._01_templatemethod;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

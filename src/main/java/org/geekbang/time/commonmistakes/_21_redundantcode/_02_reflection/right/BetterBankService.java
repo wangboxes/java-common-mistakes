@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.redundantcode.reflection.right;
+package org.geekbang.time.commonmistakes._21_redundantcode._02_reflection.right;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
@@ -72,12 +72,15 @@ public class BetterBankService {
         //签名逻辑
         stringBuilder.append(DigestUtils.md2Hex(stringBuilder.toString()));
         String param = stringBuilder.toString();
+
         long begin = System.currentTimeMillis();
         //发请求
         String result = Request.Post("http://localhost:45678/reflection" + bankAPI.url())
                 .bodyString(param, ContentType.APPLICATION_JSON)
                 .execute().returnContent().asString();
+
         log.info("调用银行API {} url:{} 参数:{} 耗时:{}ms", bankAPI.desc(), bankAPI.url(), param, System.currentTimeMillis() - begin);
+
         return result;
     }
 }
