@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.apidesign.headerapiversion;
+package org.geekbang.time.commonmistakes.apidesign._04_headerapiversion;
 
 import lombok.Getter;
 import org.springframework.web.servlet.mvc.condition.RequestCondition;

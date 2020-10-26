@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.apidesign.apiversion;
+package org.geekbang.time.commonmistakes.apidesign._02_apiversion;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

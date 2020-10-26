@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.apidesign.apiasyncsyncmode;
+package org.geekbang.time.commonmistakes.apidesign._03_apiasyncsyncmode;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

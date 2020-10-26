@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.apidesign.apiversion;
+package org.geekbang.time.commonmistakes.apidesign._02_apiversion;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.apidesign.apiresponse;
+package org.geekbang.time.commonmistakes.apidesign._01_apiresponse;
 
 import lombok.Getter;
 

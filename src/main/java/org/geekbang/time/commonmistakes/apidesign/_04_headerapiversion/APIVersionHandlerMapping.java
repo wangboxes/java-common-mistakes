@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.apidesign.headerapiversion;
+package org.geekbang.time.commonmistakes.apidesign._04_headerapiversion;
 
 import org.springframework.core.annotation.AnnotatedElementUtils;
 import org.springframework.core.annotation.AnnotationUtils;

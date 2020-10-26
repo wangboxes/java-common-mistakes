@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.apidesign.apiversion;
+package org.geekbang.time.commonmistakes.apidesign._02_apiversion;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

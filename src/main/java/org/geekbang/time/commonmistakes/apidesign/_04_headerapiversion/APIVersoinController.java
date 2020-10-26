@@ -1,4 +1,4 @@
-package org.geekbang.time.commonmistakes.apidesign.headerapiversion;
+package org.geekbang.time.commonmistakes.apidesign._04_headerapiversion;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
